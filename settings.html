@@ -4,36 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FO Settings</title>
-  <link rel="stylesheet" href="tailwind.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-100 p-4">
-  <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
-    <div class="p-8">
-      <h2 class="text-2xl font-bold mb-6">⚙️ Settings</h2>
-
-      <h3 class="text-xl font-semibold text-gray-700 mb-4">🚀 API Settings</h3>
-      <input type="text" id="apiBaseUrl" class="w-full p-3 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="API Base URL">
-      <input type="password" id="apiKey" class="w-full p-3 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="API Key">
-      <input type="text" id="model" class="w-full p-3 border border-gray-300 rounded-lg mb-6 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Model">
-
-      <h3 class="text-xl font-semibold text-gray-700 mb-4">🈂️ Languages</h3>
-      <input type="text" id="srcLang" class="w-full p-3 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Default Source Language">
-      <input type="text" id="tagLang" class="w-full p-3 border border-gray-300 rounded-lg mb-6 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Default Target Language">
-
-      <h3 class="text-xl font-semibold text-gray-700 mb-4">📚 Prompts</h3>
-      <textarea id="firstPrompt" class="w-full h-32 p-3 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="First Translation Prompt"></textarea>
-      <textarea id="reflectionPrompt" class="w-full h-32 p-3 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Reflection Prompt"></textarea>
-      <textarea id="secondPrompt" class="w-full h-32 p-3 border border-gray-300 rounded-lg mb-6 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Second Translation Prompt"></textarea>
-
-      <div class="flex justify-between">
-        <button id="saveBtn" class="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition">Save</button>
-        <button id="resetBtn" class="bg-gray-300 text-gray-700 px-5 py-2 rounded-lg hover:bg-gray-400 transition">Reset</button>
-      </div>
-
-      <div class="mt-4">
-        <p class="text-sm text-gray-600"><a class="text-blue-600 hover:underline" href="https://github.com/snekkenull/FO-Translator">FO Translator🔖0.1 </a> - Simple, Open source, inspired by Translation-Agent.</p>
-      </div>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>⚙️ Settings</h2>
     </div>
+    <h3>🚀 API Settings</h3>
+    <input type="text" id="apiBaseUrl" placeholder="API Base URL">
+    <input type="password" id="apiKey" placeholder="API Key">
+    <input type="text" id="model" placeholder="Model">
+    <h3>🈂️ Languages</h3>
+    <input type="text" id="srcLang" placeholder="Default Source Language">
+    <input type="text" id="tagLang" placeholder="Default Target Language">
+    <h3>📚 Prompts</h3>
+    <textarea id="firstPrompt" placeholder="First Translation Prompt"></textarea>
+    <textarea id="reflectionPrompt" placeholder="Reflection Prompt"></textarea>
+    <textarea id="secondPrompt" placeholder="Second Translation Prompt"></textarea>
+    <div class="button-group">
+      <button id="saveBtn">Save</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <footer>
+      <a href="https://github.com/snekkenull/FO-Translator">FO Translator🔖0.1 </a> - Simple, Open source, inspired by Translation-Agent.
+    </footer>
   </div>
   <script src="settings.js"></script>
 </body>

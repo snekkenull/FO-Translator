@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
   "name": "FO Translator",
-  "version": "0.1",
-  "description": "Translation-Agent-powered translator using OpenAI compatible API.",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "version": "0.1.2",
+  "author": "snekkenull",
+  "description": "AI translator with agent prompts and supports OpenAI compatible APIs.",
+  "permissions": ["storage"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -14,6 +15,7 @@
   },
   "options_page": "settings.html",
   "background": {
+    "scripts": ["background.js"],
     "service_worker": "background.js"
   },
   "content_scripts": [

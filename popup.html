@@ -4,39 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FO-Translator</title>
-  <link rel="stylesheet" href="tailwind.css">
-  <style>
-    body {
-      width: 400px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-100 p-4">
-  <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-    <div class="p-8">
-      <h2 class="text-3xl flex font-bold text-gray-800 mb-6">
-        <img src="images/icon48.png" alt="Icon" class="w-9 h-9 mr-2">
-        FO Translator</h2>
-      <textarea id="sourceText" class="w-full h-32 p-3 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter text to translate"></textarea>
-
-      <div class="flex mb-4">
-        <input type="text" id="srcLang" class="w-1/2 p-3 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Source language">
-        <input type="text" id="tagLang" class="w-1/2 p-3 border border-gray-300 rounded-r-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Target language">
-      </div>
-
-      <div id="outputBlock" class="mb-4">
-        <div id="outputFirst" class="p-3 border border-gray-300 rounded-lg mb-2 text-gray-600 bg-gray-50">First Translation.</div>
-        <div id="reflectionText" class="p-3 border border-gray-300 rounded-lg mb-2 text-gray-600 bg-gray-50">Reflection.</div>
-        <div id="outputSec" class="p-3 border border-gray-300 rounded-lg text-gray-600 bg-gray-50">Final Translation.</div>
-      </div>
-
-      <div class="flex justify-between">
-        <button id="translateBtn" class="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition">Translate</button>
-        <button id="settingsBtn" class="bg-gray-300 text-gray-700 px-5 py-2 rounded-lg hover:bg-gray-400 transition">Settings</button>
-      </div>
+<body>
+  <div class="container popup-container">
+    <div class="header">
+      <img src="images/icon48.png" alt="Icon" class="logo">
+      <h2>FO Translator</h2>
+    </div>
+    <textarea id="sourceText" placeholder="Enter text to translate"></textarea>
+    <div class="language-inputs">
+      <input type="text" id="srcLang" placeholder="Source language">
+      <input type="text" id="tagLang" placeholder="Target language">
+    </div>
+    <div id="outputBlock">
+      <div id="outputFirst">First Translation.</div>
+      <div id="reflectionText">Reflection.</div>
+      <div id="outputSec">Final Translation.</div>
+    </div>
+    <div class="button-group">
+      <button id="translateBtn">Translate</button>
+      <button id="settingsBtn">Settings</button>
     </div>
   </div>
-  <footer class="text-center mt-4"><a href="https://twitter.com/AnnioDance" target="_blank">By vila</a> 🍀 <a href="https://buymeacoffee.com/hivila" target="_blank">Donate</a></footer>
+  <footer>
+    <a href="https://twitter.com/AnnioDance" target="_blank">By vila</a> 🍀
+    <a href="https://buymeacoffee.com/hivila" target="_blank">Donate</a>
+  </footer>
   <script src="popup.js"></script>
 </body>
 </html>
