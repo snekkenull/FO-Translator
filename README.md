@@ -15,15 +15,18 @@
 ### Preview
 ![screen1](show2.png) ![screen3](show3.png) ![screen1](show1.png)
 
-### Download
+### Installation (Recommend)
+
 [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/fo-translator)
 
-### Installation from Sources
+### Installation from source codes
 
-1. **Download the code:** Clone this repository or download the zip to your local machine.
+1. **Download the code:** Clone this repository or download ZIP to your local machine.
 2. **Open Extensions:** Navigate to `chrome://extensions` in your Chrome browser or `about:debugging#/runtime/this-firefox` in Firefox(version >= 126.0) browser.
 3. **Enable Developer Mode:** In Toggle the "Developer mode" switch at the top right corner in Chrome.
-4. **Load extension:** Click "Load unpacked" and select the directory containing the downloaded code in Chrome, or "Load temporary Add-on" in Firefox to choose the zip file.
+4. **Load extension in Chrome:** Click "Load unpacked" and select the "src" directory from the downloaded files.
+
+   **Load Add-on in Firefox:** Compress the "src" folder into a zip file Click "Load temporary Add-on" in Firefox to choose the zip file.
 
 ### Usage
 
