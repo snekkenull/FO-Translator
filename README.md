@@ -4,22 +4,22 @@
 
 ![FO Translator](cover.png)
 
+### Installation (Recommend)
+
+[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/fo-translator)
+
+[Chrome Extension](https://chrome.google.com/webstore/detail/kcdmbldkeifkfcghipmfpnjjdaefjcpl)
+
 ### Features
 
 * **Agent-Based Translation:**  Using "translation-agent" approach for more natural and nuanced translations.
 * **OpenAI Integration:**  With OpenAI's Compatible APIs, allowing you to use local and service operators' endpoints.
 * **Effortless Translation:**  Select text on any webpage, click the FO Translator icon, and get an improved translation in seconds.
 * **Flexible prompts:**  Customize prompts for creating even more possibilities! More than translation.
-* **Privacy First:**  No logs or traces are collected by extension self, privacy, save and open-source.
+* **Privacy First:**  No logs or traces are collected by extension self, privacy, safe and open-source.
 
 ### Preview
 ![screen1](show2.png) ![screen3](show3.png) ![screen1](show1.png)
-
-### Installation (Recommend)
-
-[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/fo-translator)
-
-[Chrome Extension](https://chrome.google.com/webstore/detail/kcdmbldkeifkfcghipmfpnjjdaefjcpl)
 
 ### Installation from source codes
 
