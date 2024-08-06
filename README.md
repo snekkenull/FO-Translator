@@ -18,6 +18,7 @@
 ### Installation (Recommend)
 
 [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/fo-translator)
+
 [Chrome Extension](https://chrome.google.com/webstore/detail/kcdmbldkeifkfcghipmfpnjjdaefjcpl)
 
 ### Installation from source codes
