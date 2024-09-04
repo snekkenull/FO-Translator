@@ -10,6 +10,8 @@
 
 [![Chrome Extension](chrome.png "Chrome Extension")](https://chrome.google.com/webstore/detail/kcdmbldkeifkfcghipmfpnjjdaefjcpl)
 
+[![Edge Add-ons](edge.png "Edge Extension")](https://microsoftedge.microsoft.com/addons/detail/fo-translator/ldnlmoahdhehbdlgceckeofgcmmlboeh)
+
 ### Features
 
 * **Agent-Based Translation:**  Using "translation-agent" approach for more natural and nuanced translations.
